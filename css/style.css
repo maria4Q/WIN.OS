@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10;
+}
+#root{
+    /*Barra*/
+    --black : black;
+    --white : white;
+    --grey : grey;
+
+
+    /*Ventana*/
+    --rojo : #E01313;
+    --amarillo: #F0F428;
+    --verde : #11AE17;
+
+
+}
