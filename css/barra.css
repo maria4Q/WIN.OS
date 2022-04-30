@@ -1,0 +1,17 @@
+.barra_principal{
+    width: 60rem;
+    height: 30rem;
+    background-color: var(--black);
+ 
+}
+.barra_tarea{
+    background: rgba(196, 196, 196, 0.47);
+    width: 80rem;
+    height: 12.0rem;
+    margin-top: 18rem;
+    margin-left: 28rem;
+    border-radius: 3.5rem;
+    opacity: 90%;
+
+
+}
