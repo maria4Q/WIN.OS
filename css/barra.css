@@ -1,17 +1,21 @@
-.barra_principal{
-    width: 60rem;
-    height: 30rem;
-    background-color: var(--black);
- 
-}
-.barra_tarea{
+
+.barra_apps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
     background: rgba(196, 196, 196, 0.47);
-    width: 80rem;
-    height: 12.0rem;
-    margin-top: 18rem;
-    margin-left: 28rem;
-    border-radius: 3.5rem;
-    opacity: 90%;
-
+    width: 120rem;
+    height: 7rem;
+    margin-left: 8rem;
+    margin-right: 8rem; 
+    border-radius: 1.9rem;
+    opacity: 100%;
+    padding: 0.5rem;
 
 }
+
+/*.iconos{
+    width: 9.6rem;
+    height: 9.7rem;
+}+/
