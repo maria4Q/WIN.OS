@@ -14,8 +14,52 @@
     padding: 0.5rem;
 
 }
+.barra_superior{
+    width: 136.5rem;
+    height: 3.6rem;
+    padding: 0rem 1rem;
+    background-color: rgba(253, 251, 251, 0.8);
+    font-size: 2rem;
+    margin-bottom: 515px;
+    font-family: 'Inter', sans-serif;
 
-/*.iconos{
-    width: 9.6rem;
-    height: 9.7rem;
-}+/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.barra_superior span{
+    margin-right: 2.7rem; 
+}
+.barra_superior img{
+    margin-right: 1.5rem;
+}
+
+
+
+
+/*.list{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    list-style: none;
+}
+.list li{
+
+    margin-right: 2.7rem;
+}
+.list-2{
+    background-color: aqua;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    list-style: none;
+}
+.list-2 li{
+
+    margin-right: 2.7rem;
+}*/
