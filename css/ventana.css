@@ -1,0 +1,17 @@
+.ventana{
+    width: 70rem;
+    height: 40rem;
+    background: #E8DAE8;
+    margin-top: 3rem;
+    border-radius: 1.9rem;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    padding-left: 1rem;
+}
+.ventana img{
+    align-items: flex-start;
+    margin-top: 0.5rem;
+    padding-left: 0.6rem;
+    width: 2rem;
+}

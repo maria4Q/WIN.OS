@@ -2,25 +2,26 @@
 .barra_apps{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    
+    justify-content: center;
+ 
     background: rgba(196, 196, 196, 0.47);
-    width: 120rem;
+    width: 60rem;
     height: 7rem;
-    margin-left: 8rem;
-    margin-right: 8rem; 
+    margin: auto;
+
     border-radius: 1.9rem;
     opacity: 100%;
     padding: 0.5rem;
 
 }
 .barra_superior{
-    width: 136.5rem;
+    width: 100%;
+    /*width: 136.5rem;*/
     height: 3.6rem;
     padding: 0rem 1rem;
     background-color: rgba(253, 251, 251, 0.8);
     font-size: 2rem;
-    margin-bottom: 515px;
+    /*margin-bottom: 515px;*/
     font-family: 'Inter', sans-serif;
 
     display: flex;
@@ -36,30 +37,6 @@
 .barra_superior img{
     margin-right: 1.5rem;
 }
-
-
-
-
-/*.list{
-    padding: 0.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    list-style: none;
+.barra_apps img{
+    margin-left: 1.5rem;
 }
-.list li{
-
-    margin-right: 2.7rem;
-}
-.list-2{
-    background-color: aqua;
-    padding: 0.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-end;
-    list-style: none;
-}
-.list-2 li{
-
-    margin-right: 2.7rem;
-}*/
