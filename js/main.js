@@ -3,12 +3,12 @@
 //DEL DOCUMENTO OBTEN EL ELEMENTO MEDIANTE SU ID
 //ALMACENAR LA INFORMACIÓN EN VARIABLES.
 var menu = document.getElementById('menu');
-var icon_menu = document.getElementById('icon_menu');
+var icon = document.getElementById('icon');
 
 //FUNCIÓN ----- TRABAJAR CON EL DOM
 function activar(){
-    menu.classList.add("activar");
+    menu.classList.add('menu');
 }
 
 //EVENTO
-icon_menu.addEventListener('click', activar);
+icon.addEventListener('click', activar);
