@@ -1,5 +1,5 @@
 .menu{
-    /*EL ELEMENTO EXISTE PERO NO SE MUESTRA */
+    display: none; /*EL ELEMENTO EXISTE PERO NO SE MUESTRA */
     width: 32rem;
     height: 40rem;
     background: #E8DAE8;
