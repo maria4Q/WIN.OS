@@ -1,0 +1,21 @@
+.ventana{
+ display: none;
+    margin-top: 20rem;
+    width: 60rem;
+    height: 32rem;
+    background: #E8DAE8;
+    border-radius: 1rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    cursor: pointer;
+    position: fixed;
+    left: 28%;
+    top: 20%;
+}
+.activar{
+    display: block;
+}
+.desactivar{
+    display: none;
+}

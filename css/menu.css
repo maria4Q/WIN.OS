@@ -1,26 +1,49 @@
 .menu{
     display: none; /*EL ELEMENTO EXISTE PERO NO SE MUESTRA */
     width: 32rem;
-    height: 40rem;
+    height: 32rem;
     background: #E8DAE8;
-    margin-top: 3rem;
+    margin-top: 7rem;
     border-radius: 1rem;
     margin: auto;
-    margin-top: 5rem;
-    margin-bottom: 6rem;
     padding-left: 1rem;
     cursor: pointer;
+    position: fixed;
+    left: 40%;
+    top: 20%;
 }
-.circle{
+.circle1{
     align-items: flex-start;
     margin-top: 1.5rem;
     padding-left: 0.6rem;
     width: 2rem;
     cursor: pointer;
     margin-bottom: 2rem;
+
+}
+.circle2{
+    align-items: flex-start;
+    margin-top: 1.5rem;
+    padding-left: 0.6rem;
+    width: 2rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+
+}
+.circle3{
+    align-items: flex-start;
+    margin-top: 1.5rem;
+    padding-left: 0.6rem;
+    width: 2rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+
 }
 .activar{
     display: block;
+}
+.desactivar{
+    display: none;
 }
 .icon-Apss-menu img{
     width: 6rem;
@@ -40,6 +63,7 @@
     position: fixed;
     margin-top: 2rem;
     margin-left: 1rem;
+    cursor: pointer;
 }
 
 
