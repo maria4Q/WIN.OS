@@ -1,54 +1,30 @@
 .menu{
     display: none; /*EL ELEMENTO EXISTE PERO NO SE MUESTRA */
-    width: 32rem;
+    max-width: 32rem;
     height: 32rem;
     background: #E8DAE8;
     margin-top: 7rem;
     border-radius: 1rem;
-    margin: auto;
-    padding-left: 1rem;
+    padding-left: 1.5rem;
     cursor: pointer;
+    margin: auto;
     position: fixed;
     left: 40%;
     top: 20%;
-}
-.circle1{
-    align-items: flex-start;
-    margin-top: 1.5rem;
-    padding-left: 0.6rem;
-    width: 2rem;
-    cursor: pointer;
-    margin-bottom: 2rem;
-
-}
-.circle2{
-    align-items: flex-start;
-    margin-top: 1.5rem;
-    padding-left: 0.6rem;
-    width: 2rem;
-    cursor: pointer;
-    margin-bottom: 2rem;
-
-}
-.circle3{
-    align-items: flex-start;
-    margin-top: 1.5rem;
-    padding-left: 0.6rem;
-    width: 2rem;
-    cursor: pointer;
-    margin-bottom: 2rem;
-
+    -webkit-box-shadow: 10px 10px 21px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 21px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 21px -6px rgba(0,0,0,0.75);
 }
 .activar{
-    display: block;
+    display: block;  /******* JS ******/
 }
 .desactivar{
     display: none;
 }
 .icon-Apss-menu img{
     width: 6rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
+    margin-left: 0.8rem;
+    margin-top: 2rem;
 
 }
 .icon-Apss-menu span{
@@ -58,14 +34,49 @@
     margin-right: 6rem;
     margin-bottom: 6rem;
 }
-.carpeta{
+.carpet-desk{
+    display: flex;
+    flex-direction: column;
+    position:fixed;
     width: 7rem;
-    position: fixed;
-    margin-top: 2rem;
-    margin-left: 1rem;
-    cursor: pointer;
+    margin-left: 3rem;
+    top: 5rem;  
+}
+.carpeta2{
+    margin-top: 2.5rem;
 }
 
+/*********** ICONOS VENTANA Y MENU *************/
+.iconos-superiores{
+    display: flex;
+    flex-direction:row;
+}
+.cirle-red{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #FF5748;
+    border-radius: 6rem;
+    margin-top: 1.5rem;
+
+}
+.cirle-yellow{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #F7BC23;
+    border-radius: 6rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+
+}
+.cirle-green{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #21C63C;
+    border-radius: 6rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+
+}
 
 
 

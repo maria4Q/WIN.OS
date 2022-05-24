@@ -1,3 +1,17 @@
+.barra_superior{
+    width: 100%;
+    height: 2.5rem;
+    padding: 0rem 1rem;
+    /*background-color: rgba(253, 251, 251, 0.8);*/
+    background-color: #FDFBFB;
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 .barra_apps{
     display: flex;
     flex-direction: row;
@@ -16,19 +30,7 @@
     position: static;
 
 }
-.barra_superior{
-    width: 100%;
-    height: 2.5rem;
-    padding: 0rem 1rem;
-    background-color: rgba(253, 251, 251, 0.8);
-    font-size: 1.5rem;
-    font-family: 'Inter', sans-serif;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
 .barra_superior span{
     margin-right: 2.7rem; 
 }

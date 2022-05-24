@@ -8,9 +8,8 @@ var icon_menu = document.getElementById('icon_menu');
 var ventana = document.getElementById('ventana');
 var icon_carpeta = document.getElementById('icon_carpeta');
 
-/*var cerrar = document.getElementById('cerrar');*/
-var menu2 = document.getElementById('menu');
-var icon_cerrar = document.getElementById('icon_cerrar')
+var icon_cerrar = document.getElementById('icon_cerrar'); 
+var icon_cerrar_menu = document.getElementById('icon_cerrar_menu');
 
 //FUNCIÓN ----- TRABAJAR CON EL DOM
 function activar(){
@@ -20,7 +19,14 @@ function activar2(){
     ventana.classList.add("activar");
 }
 function desactivar(){
-    menu2.classList.remove("desactivar");
+    ventana.classList.add("desactivar");
+    
+}
+function activar2(){
+    ventana.classList.add("activar");
+}
+function desactivar2(){
+    menu.classList.add("desactivar")
 }
 
 
@@ -28,5 +34,7 @@ function desactivar(){
 icon_menu.addEventListener('click', activar);
 icon_carpeta.addEventListener('click', activar2);
 icon_cerrar.addEventListener('click', desactivar);
+icon_cerrar_menu.addEventListener('click', desactivar2)
+
 
 
